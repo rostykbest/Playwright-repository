@@ -1,19 +1,10 @@
 {
-  "name": "playwright",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "npx playwright test",
-    "ui": "npx playwright test --ui",
-    "report": "npx playwright show-report"
+  "dependencies": {
+    "playwright": "^1.39.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
   "devDependencies": {
     "@playwright/test": "^1.39.0",
     "@types/node": "^20.8.9"
-  }
+  },
+  "scripts": {}
 }
