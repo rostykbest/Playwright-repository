@@ -1,7 +1,27 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
 
+test.beforeAll(async () => {
+  //
+});
+
 test.describe("Test", () => {
+  test.beforeAll(async () => {
+    //
+  });
+
+  test.beforeEach(async () => {
+    //
+  });
+
+  test.afterEach(async () => {
+    //
+  });
+
+  test.afterAll(async () => {
+    //
+  });
+
   test("has title", async ({ page }) => {
     await page.goto("https://playwright.dev/");
 
