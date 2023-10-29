@@ -1,10 +1,6 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
 
-test.beforeAll(async () => {
-  //
-});
-
 test.describe("Test", () => {
   test.beforeAll(async () => {
     //
