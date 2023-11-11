@@ -1,5 +1,5 @@
-import BaseComponent from "./BaseComponent.js";
-import Header from "./components/Header.js";
+import BaseComponent from "./BaseComponent.mjs";
+import Header from "./components/Header.mjs";
 import { expect } from "@playwright/test";
 
 export default class BasePage extends BaseComponent {

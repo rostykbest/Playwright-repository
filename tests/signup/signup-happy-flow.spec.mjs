@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-test.describe.only("Signup happy flow", () => {
+test.describe("Signup happy flow", () => {
   test("Login", async ({ page }) => {
     const signUpName = "Ross";
     const signUpLastName = "Geller";
