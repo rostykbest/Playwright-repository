@@ -1,7 +1,8 @@
 {
+  "type": "module",
   "dependencies": {
-    "playwright": "^1.39.0",
-    "type": "module"
+    "dotenv": "^16.3.1",
+    "playwright": "^1.39.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.39.0",
@@ -9,6 +10,8 @@
   },
   "scripts": {
     "test": "npx playwright test",
+    "test:smoke": "npx playwright test -c playwright.config.smoke.js",
+    "test:regression": "npx playwright test -c playwright.config.regression.js",
     "test:ui": "npx playwright test --ui",
     "report": "npx playwright show-report"
   }
