@@ -1,5 +1,5 @@
 import { expect, test } from "@playwright/test";
-import WelcomePage from "../../src/pageObjects/welcomePage/WelcomePage.mjs";
+import WelcomePage from "../../src/pageObjects/welcomePage/WelcomePage.js";
 
 test.describe("Signup modal window", () => {
   let page;
