@@ -2,7 +2,7 @@ import { expect, test } from "@playwright/test";
 import WelcomePage from "../../src/pageObjects/welcomePage/WelcomePage.js";
 import { HEADER_LINKS } from "./fixtures/welcome.fixtures.js";
 
-test.describe.only("Guest mode", () => {
+test.describe("Guest mode", () => {
   let page;
   let welcomePage;
   let garagePage;

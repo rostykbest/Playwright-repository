@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-test.describe("Auth", () => {
+test.describe("Auth @smoke @regression", () => {
   test("Login", async ({ page }) => {
     const email = "ross.test";
     const password = "password";

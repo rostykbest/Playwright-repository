@@ -2,7 +2,7 @@ import { expect, test } from "@playwright/test";
 import WelcomePage from "../../src/pageObjects/welcomePage/WelcomePage.js";
 import { HEADER_LINKS_WELCOME_PAGE } from "./fixtures/welcome.fixtures.js";
 
-test.describe.only("Welcome page", () => {
+test.describe("Welcome page", () => {
   let page;
   let welcomePage;
 
