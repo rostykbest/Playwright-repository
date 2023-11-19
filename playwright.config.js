@@ -2,7 +2,7 @@
 // const { defineConfig, devices } = require("@playwright/test");
 import { defineConfig, devices } from "@playwright/test";
 import { config as testConfig } from "./config/config.js";
-
+import { STORAGE_STATE_USER_PATH } from "./src/data/storageState.js";
 import dotenv from "dotenv";
 
 dotenv.config();
